@@ -61,6 +61,9 @@
 	.section {
 		padding: 9.6rem 0 3.2rem;
 	}
+	.button{
+		padding: 1.2rem 2.4rem;
+	}
 	.nav {
 		height: calc(var(--header-height) + 2.4rem);
 		&__list {

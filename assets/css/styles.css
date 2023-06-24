@@ -168,8 +168,10 @@ body.dark-theme {
 .nav {
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+.nav__logo {
+  margin-right: auto;
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -245,16 +247,17 @@ body.dark-theme {
   display: inline-block;
   background-color: var(--first-color);
   color: #1a1a1a;
-  padding: 1.2rem 2.4rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 999px;
   font-weight: var(--font-semi-bold);
+  font-size: 1.5rem;
   transition: 0.3s;
 }
 .button:hover {
   background-color: var(--first-color-alt);
 }
 .button__header {
-  display: none;
+  margin: 0 1rem 0 auto;
 }
 .button-link {
   background: none;
@@ -489,6 +492,9 @@ body.dark-theme {
   }
   .section {
     padding: 9.6rem 0 3.2rem;
+  }
+  .button {
+    padding: 1.2rem 2.4rem;
   }
   .nav {
     height: calc(var(--header-height) + 2.4rem);
