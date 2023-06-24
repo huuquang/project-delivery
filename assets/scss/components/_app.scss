@@ -1,0 +1,18 @@
+/*=============== APP ===============*/
+.app {
+	&__container {
+		gap: 4rem;
+	}
+	&__data {
+		text-align: center;
+	}
+	&__desc {
+		margin-bottom: var(--mb-24);
+	}
+	&__buttons {
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		justify-content: center;
+		gap: 0.8rem;
+	}
+}

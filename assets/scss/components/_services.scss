@@ -1,0 +1,20 @@
+/*=============== SERVICES ===============*/
+.services {
+	&__container {
+		padding-top: 1.6rem;
+	}
+	&__data {
+		display: grid;
+		row-gap: 1.6rem;
+		background-color: var(--container-color);
+		box-shadow: 0 2px 6px rgba(77, 56, 0, 0.15);
+		padding: 3.2rem 2.4rem;
+		border-radius: 1.6rem;
+		text-align: center;
+	}
+	&__img {
+		width: 135px;
+		justify-self: center;
+		margin-bottom: var(--mb-08);
+	}
+}
